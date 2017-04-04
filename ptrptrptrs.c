@@ -7,7 +7,7 @@ int main(int n, char** args) {
     int num = atoi(args[1]);
     int i;
     
-    fprintf(file, "#include <stdio.h>\nint main(void) {\n");
+    fprintf(file, "#include <stdio.h>\n\nint main(void) {\n");
     
     fprintf(file, "    long a = 5;\n");
     for(i = 0; i < num; i++) {

@@ -9,6 +9,7 @@ Run your executable with an argument that contains how many times you would like
 `ptrptrptrs.exe 4` generates:
 ```C
 #include <stdio.h>
+
 int main(void) {
     long a = 5;
     long* a_ptr = &a;
@@ -23,6 +24,7 @@ int main(void) {
 `ptrptrptrs.exe 8` generates:
 ```C
 #include <stdio.h>
+
 int main(void) {
     long a = 5;
     long* a_ptr = &a;
@@ -41,6 +43,7 @@ int main(void) {
 `ptrptrptrs.exe 20` generates:
 ```C
 #include <stdio.h>
+
 int main(void) {
     long a = 5;
     long* a_ptr = &a;
@@ -71,6 +74,7 @@ int main(void) {
 `ptrptrptrs.exe 72` generates:
 ```C
 #include <stdio.h>
+
 int main(void) {
     long a = 5;
     long* a_ptr = &a;
