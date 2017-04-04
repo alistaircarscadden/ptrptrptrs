@@ -17,7 +17,8 @@ int main(void) {
     long**** a_ptr_ptr_ptr_ptr = &a_ptr_ptr_ptr;
 
     printf("a: %ld\n", ****a_ptr_ptr_ptr_ptr);
-}```
+}
+```
 
 `ptrptrptrs.exe 8` generates:
 ```C
@@ -64,7 +65,8 @@ int main(void) {
     long******************** a_ptr_ptr_ptr_ptr_ptr_ptr_ptr_ptr_ptr_ptr_ptr_ptr_ptr_ptr_ptr_ptr_ptr_ptr_ptr_ptr = &a_ptr_ptr_ptr_ptr_ptr_ptr_ptr_ptr_ptr_ptr_ptr_ptr_ptr_ptr_ptr_ptr_ptr_ptr_ptr;
 
     printf("a: %ld\n", ********************a_ptr_ptr_ptr_ptr_ptr_ptr_ptr_ptr_ptr_ptr_ptr_ptr_ptr_ptr_ptr_ptr_ptr_ptr_ptr_ptr);
-}```
+}
+```
 
 `ptrptrptrs.exe 72` generates:
 ```C
